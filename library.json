@@ -1,0 +1,25 @@
+{
+    "name": "TFTDisplayMarineData",
+    "keywords": "environment,utility",
+    "description": "Display handling for TFT display, example for ili9341",
+  "authors":
+  [
+      {
+          "name": "bwssytems",
+          "url": "https://github.com/bwssytems",
+          "maintainer": false
+      }
+  
+  ],
+  "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/bwssytems/TFTDisplayMarineData.git"
+    },
+    "frameworks": "arduino",
+    "platforms": 
+    [
+      "espressif32"
+    ],
+    "version": "0.0.1"
+  }
