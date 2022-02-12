@@ -12,7 +12,7 @@ uint8_t hh = conv2d(__TIME__), mm = conv2d(__TIME__ + 3), ss = conv2d(__TIME__ +
 void TFT_InitDisplay(String depthUnit)
 {
   _tft.init();
-  _tft.setRotation(0);
+  _tft.setRotation(2);
   _tft.fillScreen(TFT_BLACK);
 
   _tft.setTextColor(TFT_WHITE, TFT_BLACK); // Adding a background colour erases previous text automatically
